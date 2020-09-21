@@ -10,4 +10,6 @@ Grades for assignments are as follows.
 |-------------|--------|
 | percolation | 93/100 |
 |   queues    | 87/100 |
-
+|  mergesort  | 81/100 |
+|  8 puzzle   | 94/100 |
+|  Kd-trees   | 84/100 |
