@@ -6,9 +6,8 @@ This course covers essential algorithms and data structures, and mathematical an
 The code uses textbook libraries and implementations from the course. This is the algs4.jar library which can be found at [https://algs4.cs.princeton.edu/code/](https://algs4.cs.princeton.edu/code/)
 
 Grades for assignments are as follows.
-| Assignment | Grade |
-----------------------
+| Assignment  | Grade  |
+|-------------|--------|
 | percolation | 93/100 |
-------------------------
-| queues | 87/100 |
--------------------
+|   queues    | 87/100 |
+
