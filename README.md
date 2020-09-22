@@ -11,5 +11,5 @@ Grades and content for the assignments are as follows.
 | percolation | 93/100 |        Union-Find            |
 |   queues    | 87/100 |      Stacks, Queues          |
 |  collinear  | 81/100 |        Quicksort             |
-|  8 puzzle   | 94/100 |                              |
+|  8 puzzle   | 94/100 |      Priority Queues         |
 |  Kd-trees   | 84/100 |                              |
