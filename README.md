@@ -13,4 +13,5 @@ Grades and content for the assignments are as follows.
 |  collinear  | 81/100 |        Quicksort             |
 |  8 puzzle   | 94/100 |      Priority Queues         |
 |  Kd-trees   | 84/100 |            2d-trees          |
-| WordNet     | 88/100 |      digraphs                |
+| WordNet     | 88/100 |      Digraphs                |
+| SeamCarver  | 100/100| Shortest path in DAG         |
