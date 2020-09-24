@@ -1,1 +1,7 @@
 # Seam Carver
+
+Seam Carver is a fairly simply algorithm that was not discovered until 2007. It is an image-resizing technique, where the image is reduced in size one pixel of height or width at a time (until a desired heigh x width is achieved). However, it does not simply remove straight vertical (or horizontal) lines, but it removes vertical or horizontal "seams". A vertical seam is a path of connected pixels from the top of the image to the bottom (and analogously for horizontal seams). Seam Carver chooses the lowest-energy seams to remove, where the energy of a pixel is computed as the gradient of the RGB values. In this way, Seam Carver is content aware, removing the least necessary paths of pixels and preserving the "structure" and "important aspects" of the image.
+
+In *SeamCarver* we implement this algorithm, in which the main task is to find the lowest-energy path. To do so, we replicate the shortest-path algorithm for a DAG (directed acyclic graph), which we can do by modelling the image as a graph whose vertices are pixels, and where each pixel has 3 directed edges weighted by energy pointing to the 3 pixels below (for vertical seams). This is a replication of that algorithm, since we do not actually create a DAG from the image but we re-implement it to work for 2-dimensional arrays, which saves time and space.
+
+See the full specification at [https://coursera.cs.princeton.edu/algs4/assignments/seam/specification.php](https://coursera.cs.princeton.edu/algs4/assignments/seam/specification.php)
