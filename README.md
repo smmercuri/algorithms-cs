@@ -15,3 +15,4 @@ Grades and content for the assignments are as follows.
 |  Kd-trees   | 84/100 |            2d-trees          |
 | WordNet     | 88/100 |      Digraphs                |
 | SeamCarver  | 100/100| Shortest path in DAG         |
+| baseball    | 100/100| Maxflow, mincut in flow networks |
