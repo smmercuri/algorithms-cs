@@ -16,3 +16,4 @@ Grades and content for the assignments are as follows.
 | WordNet     | 88/100 |      Digraphs                |
 | SeamCarver  | 100/100| Shortest path in DAG         |
 | baseball    | 100/100| Ford-Fulkerson for maxflow, mincut in flow networks |
+| boggle      | 84/100 | DFS, Ternary search tries    |
