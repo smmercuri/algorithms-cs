@@ -17,3 +17,4 @@ Grades and content for the assignments are as follows.
 | SeamCarver  | 100/100| Shortest path in DAG         |
 | baseball    | 100/100| Ford-Fulkerson for maxflow, mincut in flow networks |
 | boggle      | 84/100 | DFS, Ternary search tries    |
+| burrows-wheeler| 85/100| data compression |
