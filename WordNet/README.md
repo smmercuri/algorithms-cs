@@ -1,6 +1,6 @@
 # WordNet
 
-WordNet is a semantic lexicon for the English language (often used by computational linguists). It groups words into sets of synonyms called *synsets* and it describes relationships between synsets. For example, the *is-a* relationship which connects a more specific synset (called a *hyponym*) to a more general synset (called a *hypernym*). To be more specific, the synset {action} is a hyponym of the synset {act, human_action, human_activity}. Or {dash, sprint} is a hyponym of {run, running}.
+WordNet is a semantic lexicon for the English language (often used by computational linguists). It groups words into sets of synonyms called *synsets* and it describes relationships between synsets. For example, the *is-a* relationship which connects a more specific synset (called a *hyponym*) to a more general synset (called a *hypernym*). For example, the synset {action} is a hyponym of the synset {act, human_action, human_activity}. Or {dash, sprint} is a hyponym of {run, running}.
 
 Here we represent WordNet as a digraph in which each vertex *v* is an integer that represents a synset, and each directed edge *v->w* represents the relationship that *w* is a hypernym of *v* (this is not necessarily a tree). Closeness in this digraph gives a notion of relatedness between synsets, that is, closer synsets will be closer related in meaning that those further apart. This data type is created by reading in two text files *synsets.txt* and *hypernyms.txt* to give the synsets and relationships respectively. This data is created in the file *WordNet*.
 
